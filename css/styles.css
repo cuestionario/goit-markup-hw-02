@@ -4,4 +4,6 @@ body {
 /*Espacio para menú navegación*/
 .logo {
   text-decoration-color: #2196f3;
+  width: 215px;
+  height: 24px;
 }
