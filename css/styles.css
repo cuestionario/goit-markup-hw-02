@@ -1,11 +1,12 @@
 body {
   background-color: white;
   font-family: "Roboto", "Arial";
+  text-decoration: none;
 }
 
 /*Espacio para menú navegación*/
 .logo {
-  text-decoration-color: #2196f3;
+  color: #2196f3;
   font-weight: 700;
   font-size: 26px;
   margin-top: 24px;
@@ -15,7 +16,7 @@ body {
 }
 
 .main-menu {
-  text-decoration-color: #212121;
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   margin-top: 32px;
@@ -24,9 +25,13 @@ body {
 }
 
 .header-contacts {
-  text-decoration-color: #757575;
+  color: #757575;
   font-weight: 500;
   font-size: 14px;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+ul {
+  list-style-type: none;
 }
