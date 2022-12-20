@@ -2,9 +2,31 @@ body {
   background-color: white;
   font-family: "Roboto", "Arial";
 }
+
 /*Espacio para menú navegación*/
 .logo {
   text-decoration-color: #2196f3;
-  width: 215px;
-  height: 24px;
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215;
+  margin-right: 93px;
+}
+
+.main-menu {
+  text-decoration-color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 50px;
+}
+
+.header-contacts {
+  text-decoration-color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
