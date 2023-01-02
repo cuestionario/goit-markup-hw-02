@@ -2,15 +2,16 @@ body {
   background-color: white;
   font-family: "Roboto", "Arial";
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
 }
 .top-box {
   background-color: #2f303a;
   width: 1600px;
   height: 600px;
-  margin-top: 80px;
   align-content: center;
+  text-decoration: none;
 }
-
 button {
   color: white;
   background-color: #2196f3;
@@ -19,42 +20,67 @@ button {
   font-size: 16px;
   font-weight: 700px;
 }
+
+[type="button-link"] {
+  color: #212121;
+  background-color: #f5f4fa;
+  width: 261px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500px;
+}
+button:hover {
+  color: white;
+  background-color: #2196f3;
+}
 .main-title {
   color: white;
   font-style: Roboto;
   font-size: 44px;
   font-weight: 900;
   text-align: center;
-  margin-top: 200px;
 }
 /*Espacio para menú navegación*/
 .logo {
   color: #2196f3;
   font-weight: 700;
   font-size: 26px;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-left: 215;
-  margin-right: 93px;
 }
 
 .main-menu {
   color: #212121;
   font-weight: 500;
-  font-size: 14px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-right: 50px;
 }
 
 .header-contacts {
   color: #757575;
   font-weight: 500;
-  font-size: 14px;
-  margin-top: 32px;
   margin-bottom: 32px;
 }
 
 ul {
   list-style-type: none;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+p {
+  color: #757575;
+}
+
+.header-contacts {
+  color: #757575;
+  text-decoration: none;
+}
+
+.header-contacts:hover {
+  color: #2196f3;
+  text-decoration: none;
 }
