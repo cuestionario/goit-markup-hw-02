@@ -21,7 +21,7 @@ button {
   font-weight: 700px;
 }
 
-[type="button-link"] {
+.button-link {
   color: #212121;
   background-color: #f5f4fa;
   width: 261px;
